@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY", "")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'c7bdb4bf7377.ngrok.io']
+ALLOWED_HOSTS = ['127.0.0.1:8000', "8000-dad7a5f1-422f-4af5-ab67-a4fb0d77fe63.ws-eu01.gitpod.io", "localhost"]
 
 
 # Application definition
