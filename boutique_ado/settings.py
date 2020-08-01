@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
+import dj_database_url
 
 if os.path.exists("env.py"):
     import env
@@ -129,6 +130,8 @@ DATABASES = {
         "NAME": os.path.join(BASE_DIR, "db.sqlite3"),
     }
 }
+
+# DATABASES = {"default": dj_database_url.parse(os.environ.get("DATABASE_URL"))}
 
 
 # Password validation
