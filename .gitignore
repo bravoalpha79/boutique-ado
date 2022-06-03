@@ -5,3 +5,4 @@ __pycache__/
 *.sqlite*
 .vscode/
 ngrok.exe
+.venv/
